@@ -24,3 +24,6 @@ if(day === 1 || 2 || 3 || 4 || 5 || 6){
 }else{
     console.log(week[day - 1]);
 }
+//4 
+currentDay = week.filter(item => week.indexOf(item) == day - 1).toString()
+console.log(currentDay);
